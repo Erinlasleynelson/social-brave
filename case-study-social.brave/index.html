@@ -53,18 +53,18 @@
           <img class="circles" src="img/target.png" alt="blue circle with target bullseye and arrow">
           <img class="circles" src="img/engage.png" alt="red circle with two people talking inside it">
             <article class="reach">
-              <h5 class="caption yellow">Reach</h5>
+              <h5 class="caption yellow-caption">Reach</h5>
               <p>We'll create tailored content and paid ads to propogate your brand.</p>
             </article>
 
             <article class="target">
-              <h5 class="caption" "blue">Target</h5>
+              <h5 class="caption blue-caption">Target</h5>
               <p>We'll conduct market research to zero in on the right target demographics.</p>
             </article>
 
             <article class="engage">
-              <h5 class="caption" "red">Engage</h5>
-              <p>We'll strategically manage your accounts to sustain traiffic and garner trust.</p>
+              <h5 class="caption red-caption">Engage</h5>
+              <p>We'll strategically manage your accounts to sustain traffic and garner trust.</p>
             </article>
 
             <img class="center-image" src="img/conversions.png" alt="upward graph">
@@ -73,48 +73,64 @@
         <section class="results">
           <h2>Our Results</h2>
           <p>You want proof? You can't handle the proof! But if you can...look no further than the social results we've achieved on our own behalf. After undergoing a rebrand in mid 2013, we essentially hit reset and have been strategically growing our online community. In under a year, we've organically amassed over 9k followers and over $100k in additional social-referred revenue —  let us help you do the same!</p>
-          <img class="center-image" src="img/followers.png" alt="circle graph depicting followers of various social media sources">
+          <img class="followers" src="img/followers_1.png" alt="circle graph depicting followers of various social media sources">
           <article class="dribble">
             <img class="results_image" src="img/dribble.png" alt="dribble icon">
-            <caption>Dribble</caption>
-            <p>2,566+ Followers</p>
+            <div class="detail">
+              <h5>Dribble</h5>
+              <p>2,566+ Followers</p>
+            </div>
           </article>
 
           <article class="facebook">
             <img class="results_image" src="img/facebook.png" alt="facebook icon">
-            <caption>Facebook</caption>
-            <p>3,235+ Likes</p>
+              <div class="detail">
+                <h5>Facebook</h5>
+                <p>3,235+ Likes</p>
+              </div>
           </article>
 
-          <article class="Instagram">
+          <article class="instagram">
             <img class="results_image" src="img/instagram.png" alt="instagram icon">
-            <caption>Instagram</caption>
-            <p>6,479+ Followers</p>
+              <div class="detail">
+                <h5>Instagram</h5>
+                <p>6,479+ Followers</p>
+              </div>
           </article>
 
-          <article class="Twitter">
+          <article class="twitter">
             <img class="results_image" src="img/twitter.png" alt="twitter icon">
-            <caption>Dribble</caption>
-            <p>2,566+ Followers</p>
+              <div class="detail">
+                <h5>Twitter</h5>
+                <p>2,446+ Followers</p>
+              </div>
           </article>
         </section>
 
         <section class="signup">
           <h2>Let's Talk Already!</h2>
           <p>Social engagement is a custom process so we’ll discover your needs and create a plan around your specific business goals. To keep it simple, we’re getting down on one knee and proposing more loyal customers for your brand. Schedule your consultation below!</p>
-          <form>
 
+            <form class="form"action="my-form.php" method="post">
+              <p class="date">Set a date:</p>
+                <select class="dropdown info" name="characters">
+                  <option value="<Month">Month</option>
+                  <option value="December">December</option>
+                  <option value="January">January</option>
+                </select>
+              <p class="contact info"><input type="text" placeholder="Full Name*"><input type="text" placeholder="Phone Number*"><input type="text" placeholder="Email Address*"></p>
+              <input class="submit" type="submit" value="Submit">
+            </form>
         </section>
 
         <footer>
-          <p> All rights reserved</p>
-          <p>created with <img src="img/heart.png" alt="heart image"> by Brave People</p>
-          <div class="social-media">
-            <a href="https://www.facebook.com/wearebravepeople"><img src="img/fb_hover.png" alt="facebook hover icon"></a>
-            <a href="https://instagram.com/brvppl"><img src="img/instagram_hover.png" alt="instagram hover icon"></a>
-            <a href="https://twitter.com/brvppl"><img src="img/twitter_hover.png" alt="twitter hover icon"></a>
-            <a href="https://dribbble.com/brvppl"><img src="img/dribbble_hover.png" alt="dribble hover icon"></a>
-          </div>
+          <p class="copyright"> All rights reserved.</p>
+          <p class="created">created with <img class="heart" src="img/heart.png" alt="heart image"> by Brave People</p>
+
+            <a class="social-media" href="https://www.facebook.com/wearebravepeople"><img src="img/fb_hover.png" alt="facebook hover icon"></a>
+            <a class="social-media" href="https://instagram.com/brvppl"><img src="img/instagram_hover.png" alt="instagram hover icon"></a>
+            <a class="social-media" href="https://twitter.com/brvppl"><img src="img/twitter_hover.png" alt="twitter hover icon"></a>
+            <a class="social-media" href="https://dribbble.com/brvppl"><img src="img/dribbble_hover.png" alt="dribble hover icon"></a>
        </footer>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>

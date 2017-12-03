@@ -104,6 +104,16 @@ textarea {
      box-sizing: inherit;
    }
 
+   @font-face {
+     font-family: "Didact_Gothic";
+     src: url("fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+   }
+
+
+   @font-face {
+     font-family: "Montserrat";
+     src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+   }
    body {
      font-family: sans-serif;
      line-height: 1.4;
@@ -171,7 +181,7 @@ textarea {
      color: #fff;
      padding-top: 2.1em;
      padding-bottom: .5em;
-     font-family: 'futura-pt', sans-serif
+     font-family: 'Montserrat', sans-serif
    }
 
    .yellow  {
@@ -188,7 +198,7 @@ textarea {
    }
 
    .center-image {
-     padding: 0 10em 0 14em;
+     padding: 0 10em 0 20em;
    }
 
    .what {
@@ -236,61 +246,217 @@ textarea {
 
    .circles {
      display: inline;
-     padding: 2em 7em 1em 8em;
+     padding: 1em 9em 0 9em;
    }
 
    .caption {
-     font-size: 1em;
-     font-weight: bold;
-     text-align: center;
-     margin: 4em;
-     text-transform: uppercase;
-   }
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 2em 4em;
+    text-transform: uppercase;
+  }
+  .reach {
+   margin: 0 1em;
+   padding:0;
+   width: 30%;
+   float: left;
+ }
 
-   .yellow {
+   .target {
+    width: 30%;
+    float: left;
+    margin-left: 1.8em;
+  }
+
+  .engage {
+    width: 30%;
+    float: right;
+    margin-right: 2em;
+  }
+
+  .yellow-caption {
     color: #FBA73E;
    }
 
-   .reach {
-     border: 1px solid green;
-     width: 30%;
-     float: left;
+   .blue-caption {
+    color: #8CBFDB;
    }
 
-   .target {
-     border: 1px solid blue;
-     width: 30%;
-     float: right;
+   .red-caption {
+    color: #E47787;
    }
 
-   .engage {
-     border: 1px solid red;
-     width: 30%;
-     float: right;
+   .followers {
+     margin: 6em 12em 5em 30.5em;
    }
 
    .results_image {
-     max-width: 15%;
+     max-width: 12.5%;
    }
 
    .results {
      background-color: #D4F3FF;
-
+     position: relative;
+     padding-bottom: 10.5em;
    }
+
+   .dribble img {
+     position: absolute;
+     top: 25em;
+     left: 10em;
+   }
+
+   .dribble h5 {
+     color: #CF2C4C;
+   }
+
+   .dribble .detail {
+     position: absolute;
+     top: 36em;
+     left: 6.5em;
+   }
+
+   .instagram img {
+     position: absolute;
+     top: 46em;
+     left: 10em;
+   }
+
+   .instagram h5 {
+     color: #2B709A;
+   }
+
+   .instagram .detail {
+     position: absolute;
+     top: 57em;
+     left: 6.5em;
+   }
+   .facebook img {
+     position: absolute;
+     top: 25em;
+     right: 10em;
+   }
+
+   .facebook h5 {
+     color: #24486E;
+   }
+
+   .facebook .detail {
+     position: absolute;
+     top: 36em;
+     right: 6.5em;
+}
+   .twitter img {
+     position: absolute;
+     top: 46em;
+     right: 10em;
+   }
+
+   .twitter h5 {
+     color: #439CC7;
+   }
+
+   .twitter .detail {
+     position: absolute;
+     top: 57em;
+     right: 6.5em;
+   }
+
+   .results h5 {
+     font-size: 1.1em;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     margin-top: .8em
+   }
+
+   .detail {
+     text-align: center;
+     width: 22%;
+     height: 10em;
+   }
+
+   .detail p {
+     border: 1px solid red;
+     margin:0;
+   }
+
+   .detail h5 {
+     border: 1px solid blue;
+     margin: 1em 0;
+   }
+
    .signup {
      background-color: #FCA638;
      color: #fff;
-     height: auto;
+     height: 39em;
+     border: 3px solid blue;
+     position: relative;
+   }
+
+   .form {
+     display: block;
+     margin: 0 0 3em 0;
+
+   }
+
+   .info {
+     margin: 1.5em 0 1em 0;
+     padding: .5em .5em;
+     display: inline-block;
+     border: 1px solid yellow;
+   }
+
+   .date{
+     position: absolute;
+     top: 20em;
+     left: 29em;
+     text-transform: uppercase;
+     font-size: 1em;
+     color: #C77818;
+   }
+
+   .dropdown {
+     position: absolute;
+     top: 20em;
+     left: 40em;
+   }
+
+   .contact {
+     position: absolute;
+     top: 23em;
+     left: 25em;
+   }
+
+   .submit {
+     text-align: center;
    }
 
    footer {
      background-color: #3C3C3C;
      color: #fff;
+     border: 3px solid green;
+     position: relative;
    }
 
+   .copyright {
+     text-align: left;
+     text-transform: uppercase;
+     font-size: .7em;
+   }
+
+   .created {
+     text-align: center;
+     width: 25em;
+   }
+
+   .heart {
+     display: inline;
+   }
    .social-media {
      color:#AEBBBB;
-     display: inline;
+     width: 49%
    }
 
    .social-media a:hover {
