@@ -105,12 +105,6 @@ textarea {
    }
 
    @font-face {
-     font-family: "Didact_Gothic";
-     src: url("fonts/Didact_Gothic/DidactGothic-Regular.ttf");
-   }
-
-
-   @font-face {
      font-family: "Montserrat";
      src: url("fonts/Montserrat/Montserrat-Regular.ttf");
    }
@@ -245,7 +239,7 @@ textarea {
 
    .circles {
      display: inline;
-     padding: 1em 9em 0 9em;
+     padding: 1em 8em 0 8.5em;
    }
 
    .caption {
@@ -265,13 +259,13 @@ textarea {
    .target {
     width: 30%;
     float: left;
-    margin-left: 1.8em;
+    margin-left: 2.1em;
   }
 
   .engage {
     width: 30%;
     float: right;
-    margin-right: 2em;
+    margin-right: 1.8em;
   }
 
   .yellow-caption {
@@ -287,7 +281,7 @@ textarea {
    }
 
    .followers {
-     margin: 6em 12em 5em 30.5em;
+     margin: 6em 12em 5em 27.5em;
    }
 
    .results_image {
@@ -296,9 +290,9 @@ textarea {
 
    .results {
      background-color: #D4F3FF;
-     position: relative;
      padding-bottom: 10.5em;
      border: 1px solid #CEF1FF;
+     position: relative;
    }
 
    .dribble img {
@@ -393,6 +387,10 @@ textarea {
      position: relative;
    }
 
+   .signup h2 {
+     color: #fff;
+   }
+
    .form {
      display: block;
      margin: 0 0 3em 0;
@@ -400,10 +398,9 @@ textarea {
    }
 
    .info {
-     margin: 1.5em 0 1em 0;
+     margin: .5em 0 1em 0;
      padding: 1.5em 2.5em;
      display: inline;
-     border: 1px solid yellow;
    }
 
    .date{
@@ -417,30 +414,49 @@ textarea {
 
    .dropdown {
      position: absolute;
-     top: 19em;
+     top: 20em;
      left: 40em;
      padding: 0;
    }
 
-   option {
+   select {
      background-color: #f7cd76;
+     background-color: #f7cd76;
+     border: #f7cd76;
+     padding: 1.1em;
+     color: #C77818;
+     font-size: .9em;
    }
 
    input {
      background-color: #f7cd76;
      border: #f7cd76;
-     padding: 1em;
-     color: #FCA638;
+     padding: 1.1em;
+     color: #C77818;
+     margin: .5em;
+     font-size: .9em;
+   }
+
+   input:hover {
+     background-color: #FDD675;
    }
 
    .contact {
      position: absolute;
      top: 23em;
-     left: 25em;
+     left: 22em;
    }
 
    .submit {
-     text-align: center;
+     position: absolute;
+     left: 38em;
+     bottom: 4em;
+     background-color: #fff;
+     text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 2px;
+     padding: 1.5em 6em;
+
    }
 
    footer {
