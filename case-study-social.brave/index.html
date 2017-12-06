@@ -113,15 +113,17 @@
 
             <form class="form"action="my-form.php" method="post">
               <p class="date">Set a date:</p>
-                <select class="dropdown info" name="characters">
+              <div class="dropdown info">
+                <select name="characters">
                   <option value="<Month">Month</option>
                   <option value="December">December</option>
                   <option value="January">January</option>
                 </select>
+              </div>
               <p class="contact info"><input type="text" placeholder="Full Name*">
                 <input type="text" placeholder="Phone Number*">
                 <input type="text" placeholder="Email Address*"></p>
-              <input class="submit" type="submit" value="Submit">
+              <input class="center-image" type="submit" value="Submit">
             </form>
         </section>
 
@@ -129,10 +131,16 @@
           <p class="copyright"> All rights reserved.</p>
           <p class="created">created with <img class="heart" src="img/heart.png" alt="heart image"> by Brave People</p>
 
-            <a class="social-media" href="https://www.facebook.com/wearebravepeople"><img src="img/fb_hover.png" alt="facebook hover icon"></a>
-            <a class="social-media" href="https://instagram.com/brvppl"><img src="img/instagram_hover.png" alt="instagram hover icon"></a>
-            <a class="social-media" href="https://twitter.com/brvppl"><img src="img/twitter_hover.png" alt="twitter hover icon"></a>
-            <a class="social-media" href="https://dribbble.com/brvppl"><img src="img/dribbble_hover.png" alt="dribble hover icon"></a>
+          <div class="social-media">
+            <a href="https://www.facebook.com/wearebravepeople">
+              <img src="img/fb_hover.png" alt="facebook hover icon"></a>
+            <a href="https://instagram.com/brvppl">
+              <img src="img/instagram_hover.png" alt="instagram hover icon"></a>
+            <a href="https://twitter.com/brvppl">
+              <img src="img/twitter_hover.png" alt="twitter hover icon"></a>
+            <a href="https://dribbble.com/brvppl">
+              <img src="img/dribbble_hover.png" alt="dribble hover icon"></a>
+          </div>
        </footer>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>

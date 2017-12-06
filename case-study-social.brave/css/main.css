@@ -121,7 +121,6 @@ textarea {
 
    img {
      max-width: 100%;
-     display: block;
    }
 
    .nav-header {
@@ -198,13 +197,13 @@ textarea {
    }
 
    .center-image {
-     padding: 0 10em 0 20em;
+     padding: 0 19em 0 20em;
    }
 
    .what {
      background-color: #F4F3F4;
      height: auto;
-     margin: 0;
+     border: 1px solid #F2F1F2;
 
    }
 
@@ -299,6 +298,7 @@ textarea {
      background-color: #D4F3FF;
      position: relative;
      padding-bottom: 10.5em;
+     border: 1px solid #CEF1FF;
    }
 
    .dribble img {
@@ -389,7 +389,7 @@ textarea {
      background-color: #FCA638;
      color: #fff;
      height: 39em;
-     border: 3px solid blue;
+     border: 1px solid #FCA638;
      position: relative;
    }
 
@@ -408,7 +408,7 @@ textarea {
 
    .date{
      position: absolute;
-     top: 20em;
+     top: 19em;
      left: 29em;
      text-transform: uppercase;
      font-size: 1em;
@@ -417,8 +417,20 @@ textarea {
 
    .dropdown {
      position: absolute;
-     top: 20em;
+     top: 19em;
      left: 40em;
+     padding: 0;
+   }
+
+   option {
+     background-color: #f7cd76;
+   }
+
+   input {
+     background-color: #f7cd76;
+     border: #f7cd76;
+     padding: 1em;
+     color: #FCA638;
    }
 
    .contact {
@@ -434,31 +446,47 @@ textarea {
    footer {
      background-color: #3C3C3C;
      color: #fff;
-     border: 3px solid green;
+     height: 6.5em;
      position: relative;
+     margin: 0;
+     border: 1px solid #3C3C3C;
    }
 
    .copyright {
      text-align: left;
      text-transform: uppercase;
      font-size: .7em;
+     padding-top: 2.5em;
+     color: #9FAAAA;
    }
 
    .created {
-     text-align: center;
-     width: 25em;
+     width: 40em;
+     color: #9FAAAA;
+     text-transform: uppercase;
+     font-size: .7em;
+     position: absolute;
+     top: 2em;
+     left: 40em;
    }
 
    .heart {
      display: inline;
    }
+
    .social-media {
-     color:#AEBBBB;
-     width: 49%
+     position: absolute;
+     top: 2em;
+     right: 2em;
+     color: #9FAAAA;
    }
 
    .social-media a:hover {
      color: #fff;
+   }
+
+   .social-media a:visited {
+     color: #9FAAAA;
    }
 
 
