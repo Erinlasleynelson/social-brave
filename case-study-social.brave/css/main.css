@@ -192,6 +192,7 @@ textarea {
 
    .center-image {
      padding: 0 19em 0 20em;
+     margin: auto;
    }
 
    .what {
@@ -249,6 +250,7 @@ textarea {
     margin: 2em 4em;
     text-transform: uppercase;
   }
+
   .reach {
    margin: 0 1em;
    padding:0;
@@ -280,19 +282,19 @@ textarea {
     color: #E47787;
    }
 
+   .results {
+     position: relative;
+     background-color: #D4F3FF;
+     padding-bottom: 10.5em;
+     border: 1px solid #CEF1FF;
+   }
+
    .followers {
      margin: 6em 12em 5em 27.5em;
    }
 
    .results_image {
      max-width: 12.5%;
-   }
-
-   .results {
-     background-color: #D4F3FF;
-     padding-bottom: 10.5em;
-     border: 1px solid #CEF1FF;
-     position: relative;
    }
 
    .dribble img {
@@ -420,7 +422,6 @@ textarea {
    }
 
    select {
-     background-color: #f7cd76;
      background-color: #f7cd76;
      border: #f7cd76;
      padding: 1.1em;
